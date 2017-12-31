@@ -1,0 +1,35 @@
+{
+  "name": "react-native-rotating-view",
+  "version": "0.3.0",
+  "description": "A view that rotates with the phone's orientation",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "transform",
+    "rotate",
+    "orientation",
+    "change",
+    "direction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://wassgha@github.com/wassgha/react-native-rotating-view.git"
+  },
+  "author": "Wassim Gharbi <wassgha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wassgha/react-native-rotating-view/issues"
+  },
+  "homepage": "https://github.com/wassgha/react-native-rotating-view",
+  "dependencies": {
+    "react-native-orientation": "^3.1.0",
+    "create-react-class": "^15.6.2"
+  }
+}
