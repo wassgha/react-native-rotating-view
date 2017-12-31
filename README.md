@@ -19,7 +19,11 @@ Do not forget to add `Orientation.lockToPortrait()` in your initial view to lock
 var RotatingView = require('react-native-rotating-view');
 
 ...
-  <RotatingView style={{ ... }}>
+  <RotatingView 
+    portraitStyle={{ ... }}
+    landscapeRightStyle={{ ... }}
+    landscapeLeftStyle={{ ... }}
+  >
     <YourElement />
   </RotatingView>
 ...
@@ -27,7 +31,7 @@ var RotatingView = require('react-native-rotating-view');
 
 ## Demo
 
-We use `react-native-rotating-view` in **Apperture** ![iOS](https://itunes.apple.com/app/id1314756787) / ![Android](https://play.google.com/store/apps/details?id=com.aperture)
+We use `react-native-rotating-view` in **Apperture** [iOS](https://itunes.apple.com/app/id1314756787) / [Android](https://play.google.com/store/apps/details?id=com.aperture)
 
 
 
